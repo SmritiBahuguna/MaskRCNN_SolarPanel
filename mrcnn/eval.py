@@ -1,7 +1,7 @@
 # Compute VOC-Style mAP @ IoU=0.5
 # Running on 10 images. Increase for better accuracy.
-#image_ids = np.random.choice(dataset.image_ids, 10)	//dataset is validation dataset
-image_ids=np.array([1,2,3,4,5,6,8,9,11,12,13,14])	//not working for all the images as it hasn't been able to detect solar panels there
+#image_ids = np.random.choice(dataset.image_ids, 10)	#dataset is validation dataset
+image_ids=np.array([1,2,3,4,5,6,8,9,11,12,13,14])	#not working for all the images as it hasn't been able to detect solar panels there
 #print(dataset.image_ids)
 APs = []
 for image_id in image_ids:
