@@ -22,6 +22,11 @@ python3 custom.py train --dataset=solar_panel_dataset --weights=coco
 
 python3 eval.py 
 
+## Results:
+After being trained on 102 images, 
+* mAP for original dataset: 0.484
+* mAP for sharpened images dataset: 0.344
+
 ## References
 
 * Paper Link: [Mask R-CNN](https://arxiv.org/abs/1703.06870).
