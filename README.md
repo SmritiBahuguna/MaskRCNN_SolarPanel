@@ -13,5 +13,6 @@ Explain how to run the automated tests for this system
 
 ## References
 
-* [Mask R-CNN](https://arxiv.org/abs/1703.06870)
+* Paper Link: [Mask R-CNN](https://arxiv.org/abs/1703.06870).
+Link to the repository: https://github.com/matterport/Mask_RCNN
 
