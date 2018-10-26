@@ -6,6 +6,10 @@ To detect solar panels from satellite images for Indian rooftops, using Mask RCN
 
 mrcnn contains the model configuration in custom.py and evaluation using mAP metric in eval.py.
 
+solar_panel_dataset contains:
+* train - Training Images with annotation file
+* val - Validation Images with annotation file
+
 Two models have been trained on:
 * Original Images 
 * Sharpened Images using filter2D 
